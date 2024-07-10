@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/* utils */
+/* generics */
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -19,15 +19,23 @@ h1 {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 75px;
+    font-size: 65px;
 }
 
 h1.green {
     color: green;
 }
 
-.content-img {
-    
+img.shoe {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
 }
 
 /* main */
@@ -39,16 +47,8 @@ h1.green {
     background-color: red;
 }
 
-img.first-shoe {
-    width: 100%;
-}
-
 .green-page {
     background-color: green;
-}
-
-img.second-shoe{
-    width: 100%;
 }
 
 .yellow-page {
@@ -56,6 +56,26 @@ img.second-shoe{
 }
 
 img.third-shoe {
-    width: 100%;
-    position: relative;
+    padding-top: 100px;
+}
+
+/* menù */
+.menù {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    
+}
+
+a {
+    display: inline-block;
+    color: black;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
 }
