@@ -9,12 +9,53 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 75px;
+}
+
+h1.green {
+    color: green;
+}
+
+.content-img {
+    
+}
+
 /* main */
 .full-page {
-    position: relative;
     height: 100vh;
 }
 
 .red-page {
     background-color: red;
+}
+
+img.first-shoe {
+    width: 100%;
+}
+
+.green-page {
+    background-color: green;
+}
+
+img.second-shoe{
+    width: 100%;
+}
+
+.yellow-page {
+    background-color: yellow;
+}
+
+img.third-shoe {
+    width: 100%;
+    position: relative;
 }
