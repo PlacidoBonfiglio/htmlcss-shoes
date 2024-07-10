@@ -5,6 +5,11 @@
 }
 
 /* generics */
+html {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -64,7 +69,6 @@ img.third-shoe {
     position: fixed;
     top: 20px;
     right: 10px;
-    
 }
 
 a {
@@ -78,4 +82,13 @@ a {
     text-align: center;
     text-decoration: none;
     margin-right: 20px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.menù a:hover {
+    scale: 1.1;
+}
+
+.menù a:active {
+    scale: 1;
 }
