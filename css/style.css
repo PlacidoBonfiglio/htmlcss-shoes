@@ -24,7 +24,7 @@ h1 {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 65px;
+    font-size: 62px;
 }
 
 h1.green {
@@ -32,7 +32,7 @@ h1.green {
 }
 
 img.shoe {
-    width: 105%;
+    width: 100%;
 }
 
 ul {
